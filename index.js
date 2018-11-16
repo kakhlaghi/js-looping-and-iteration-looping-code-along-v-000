@@ -9,14 +9,8 @@ function printBadges(badges) {
 
 
 function tailsNeverFails(){
-  let res;
-  let count;
-  while (res != 'tails'){
-    let flip = Math.random()
-    if (flip >= 0.5 ){
-      count ++ 1
-    } else {
-      res = 'heads'
+  let tails;
+  
       console.log( `You got Tails ${count} many times!`)
     }
   }
