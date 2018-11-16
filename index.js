@@ -9,9 +9,10 @@ function printBadges(badges) {
 
 function tailsNeverFails(){
   let res;
+  let count;
   while (res != 'tails'){
     if (Math.random()) >= 0.5 {
-      console.log(`You got `)
+      
     } else {
       res = 'heads'
     }
