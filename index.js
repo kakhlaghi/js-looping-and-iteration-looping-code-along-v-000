@@ -11,5 +11,5 @@ function tailsNeverFails(){
   let res;
   while (res != 'tails'){
     Math.random() >= 0.5;
-}
+  }
 }
