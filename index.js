@@ -15,6 +15,7 @@ function tailsNeverFails(){
       count ++ 1
     } else {
       res = 'heads'
+      return "You "
     }
   }
 }
