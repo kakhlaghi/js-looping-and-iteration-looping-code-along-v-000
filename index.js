@@ -12,7 +12,7 @@ function tailsNeverFails(){
   let res;
   let count;
   while (res != 'tails'){
-    flip = Math.random()
+    let flip = Math.random()
     if (flip >= 0.5 ){
       count ++ 1
     } else {
