@@ -9,8 +9,8 @@ function printBadges(badges) {
 
 
 function tailsNeverFails(){
-  let tails;
-  
+  let tails = 0;
+
       console.log( `You got Tails ${count} many times!`)
     }
   }
