@@ -7,3 +7,16 @@ function printBadges(badges) {
 }
 
 
+
+function tailsNeverFails(){
+  let res;
+  let count;
+  while (res != 'tails'){
+    if (Math.random() >= 0.5 ){
+      count ++ 1
+    } else {
+      res = 'heads'
+      console.log( `You got Tails ${count} many times!`)
+    }
+  }
+}
