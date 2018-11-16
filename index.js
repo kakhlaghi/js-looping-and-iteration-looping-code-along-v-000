@@ -9,6 +9,6 @@ function printBadges(badges) {
 
 function tailsNeverFails(){
   let res;
-  Math.random() >= 0.5;
+    Math.random() >= 0.5;
 
 }
