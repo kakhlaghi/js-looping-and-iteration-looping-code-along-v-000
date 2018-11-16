@@ -12,6 +12,8 @@ function tailsNeverFails(){
   while (res != 'tails'){
     if (Math.random()) >= 0.5 {
       res = 'tails'
+    } else {
+      res = 'heads'
     }
   }
 }
