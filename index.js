@@ -15,7 +15,7 @@ function tailsNeverFails(){
       count ++ 1
     } else {
       res = 'heads'
-      return "You "
+      console.log( `You got Tails ${count} many times!`)
     }
   }
 }
